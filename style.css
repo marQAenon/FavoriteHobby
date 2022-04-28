@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#42A5F5 0%, #006064 100%);
+}
+
+#myName{
+    font-family: 'Playfair Display', serif;
+}
+
+.line {
+    height: 10px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+img{
+    border-radius: 35%;
+}
+
+.bio{
+    padding: 20px;
+    font-size: 20;
+}
+
+.menu{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.links:hover
+{
+    background-color: lightblue;
+}
+
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#writings a{
+    text-decoration: underline !important;
+    color: green !important;
+}
+
+#contact{
+    background-color: lightgrey;
+}
+
+.contact_1 h3{
+    display: inline;
+}
